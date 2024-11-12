@@ -4,11 +4,9 @@
 name: Build and deploy ASP.Net Core app to Azure Web App - Blazor-CICD
 
 on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
-
+  pull_request:
+      branches:
+        - main
 jobs:
   build:
     runs-on: windows-latest
