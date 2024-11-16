@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BlazorAppLearnCICD.Client\BlazorAppLearnCICD.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.5" />
+    <PackageReference Include="MudBlazor" Version="7.15.0" />
   </ItemGroup>
 
 </Project>
