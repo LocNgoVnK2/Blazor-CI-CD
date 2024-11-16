@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorAppLearnCICD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca8122a1553e690a4c8d0c7359460d5a3baed24b")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorAppLearnCICD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorAppLearnCICD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
