@@ -14,8 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - name: Checkout main branch
-        run: git checkout main  # Đảm bảo đang ở nhánh main
+      - name: Switch to main branch
+        run: git switch main
 
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v4
