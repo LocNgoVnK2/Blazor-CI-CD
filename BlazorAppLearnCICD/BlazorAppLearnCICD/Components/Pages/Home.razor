@@ -1,11 +1,191 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<MudContainer Class="mt-16">
+    <MudText Typo="Typo.h3" Align="Align.Center" GutterBottom="true">About Me</MudText>
+    <MudText Align="Align.Center">
+        With 1 year of hands-on experience in .NET Core for backend development, as well as Blazor and React for frontend,
+        I have built a strong foundation in OOP and SOLID principles, enabling me to develop scalable and efficient applications.
+    </MudText>
 
-<h1>Hello, world!</h1>
 
-My name is Ngo Phuoc Loc. This project to learn CI/CD with Github Action
-My Profile:
-<a href="https://www.linkedin.com/in/ngo-loc-9bb433256/" target="_blank">Linkedin</a>
+   <MudGrid Class="mt-8">
+        <!-- Personal Information -->
+        <MudGrid Class="mt-8">
+            <MudItem xs="12">
+                <MudCard Elevation="15" Class="rounded-lg pb-4" Style="background-color: #f0f4f8;">
+                    <MudCardHeader>
+                        <MudGrid>
+                         
+                            <MudItem xs="12" sm="12">
+                                    <MudCardContent>
+                                      
+                                    <MudText Typo="Typo.h4" Align="Align.Center" Color="Color.Secondary">NGO PHUOC LOC</MudText>
+                                    <MudText Typo="Typo.subtitle1" Align="Align.Center" Class="mt-2" Color="Color.Dark">FULLSTACK – DOTNET DEVELOPER</MudText>
+                                </MudCardContent>
+                            </MudItem>
+                        </MudGrid>
+                    </MudCardHeader>
+                    <MudCardContent>
+                        <MudGrid>
+                            <MudItem xs="12" sm="6">
+                               
+                                
+                                <MudText Typo="Typo.body1" Color="Color.Info">
+                                    <MudAvatar>
+                                        <MudImage Src="avt.jpg"></MudImage>
+                                    </MudAvatar>
+                                    <br />
+                                    <strong>Phone:</strong> +84 869152132<br />
+                                    <strong>Email:</strong> <a href="mailto:ngophuocloc0309@gmail.com">ngophuocloc0309@gmail.com</a><br />
+                                    <strong>Address:</strong> Ho Chi Minh City, Viet Nam
+                                </MudText>
+                            </MudItem>
+                            <MudItem xs="12" sm="6">
+                                <MudList T="string" Class="mx-auto mt-4" Style="width:300px;">
+                                    <MudListItem Icon="@Icons.Material.Filled.Language">Languages: English, Vietnamese</MudListItem>
+                                    <MudListItem Icon="@Icons.Material.Filled.Code">GitHub: <MudLink href="https://github.com/LocNgoVnK2" target="_blank">LocNgoVnK2</MudLink></MudListItem>
+                                    <MudListItem Icon="@Icons.Material.Filled.Work">LinkedIn: <MudLink href="https://www.linkedin.com/in/ngo-loc-9bb433256/" target="_blank">Ngo (Phuoc) Loc</MudLink></MudListItem>
+                                </MudList>
+                            </MudItem>
+                        </MudGrid>
+                    </MudCardContent>
+                </MudCard>
+            </MudItem>
+        </MudGrid>
+       
 
-Welcome to your new app.
+        <MudGrid Class="mt-8">
+        <!-- Skills -->
+        <MudItem xs="12" sm="12" md="12">
+            <MudCard Elevation="25" Class="rounded-lg pb-4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h5" Align="Align.Center">Skills & Abilities</MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudList T="string" Class="mx-auto mt-4">
+                        <MudListItem Icon="@Icons.Material.Filled.Code">
+                            Programming: C#, Java, JavaScript
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.Dashboard">
+                            Frameworks: .NET Core, .NET Framework, ASP.NET MVC, ASP.NET API, Blazor, ReactJS, Bootstrap
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.Storage">
+                            Database: MySQL, Ms SQL Server, MongoDB
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.MergeType">
+                            Version Control: Git, GitHub
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.People">
+                            Software Collaboration: Atlassian Jira Software, Scrum ADO
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.Architecture">
+                            Software Architecture: Microservices, Monolithic
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.BugReport">
+                            Test: Mock Test, Unit Test with XUnit
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.Cloud">
+                            DEVOPS: Azure, Docker, Kubernetes, CI/CD with GitHub Actions
+                        </MudListItem>
+                        <MudListItem Icon="@Icons.Material.Filled.Settings">
+                            Design Patterns: Clean Architecture, CQRS, Dependency Injection, Repository Pattern
+                        </MudListItem>
+                    </MudList>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+
+
+        <!-- Education -->
+        <MudItem xs="12" sm="12" md="12">
+            <MudCard Elevation="25" Class="rounded-lg pb-4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h5" Align="Align.Center">Education</MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudText Typo="Typo.body1">
+                        <strong>Vietnam National University HCMC - An Giang University</strong><br />
+                        Bachelor of Science in Software Engineering<br />
+                        GPA: 8.6/10 (2020 - 2024)<br />
+                        <em>Encouragement Scholarship: Received 5 out of 8 semesters</em>
+                    </MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+    </MudGrid>
+    </MudGrid>
+    <!-- Experience -->
+    <MudText Typo="Typo.h4" Class="mt-8" Align="Align.Center">Experience</MudText>
+    <MudGrid Class="mt-4">
+        <!-- Aventra Group -->
+        <MudItem xs="12" sm="6">
+            <MudCard Elevation="25" Class="rounded-lg pb-4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h5" Align="Align.Center">Aventra Group</MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudText Typo="Typo.body1">
+                        <strong>Role:</strong> Junior Fullstack Developer<br />
+                        <strong>Duration:</strong> 04/2024 - Present<br />
+                        <strong>Projects:</strong>
+                        <ul>
+                            <li>
+                                <strong>CMS - Aventra Group Website:</strong>
+                                <ul>
+                                    <li>Developed Blazor-based CMS using Oqtane for managing modules like news, case studies.</li>
+                                    <li>Optimized DOM rendering to improve page load speed from 6s to 1.2s.</li>
+                                    <li>Refined API structure to fetch only necessary data fields, improving efficiency.</li>
+                                    <li>Implemented animations and user-friendly effects based on Figma designs.</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>CMS - MGATE Website:</strong>
+                                <ul>
+                                    <li>Created modules for content management, including filtering and pagination features.</li>
+                                    <li>Developed a mail client for "Contact Us" form submission.</li>
+                                    <li>Reused existing resources to accelerate delivery.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <strong>Technologies Used:</strong> .NET 8, Blazor, Oqtane, Azure DevOps, Git, HTML, CSS, Bootstrap<br />
+                        <strong>Reference:</strong> Ricky Phuoc - Senior Fullstack Developer, Technical Leader
+                    </MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+
+        <!-- TMA Solutions -->
+        <MudItem xs="12" sm="6">
+            <MudCard Elevation="25" Class="rounded-lg pb-4">
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h5" Align="Align.Center">TMA Solutions</MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudText Typo="Typo.body1">
+                        <strong>Role:</strong> .NET Developer<br />
+                        <strong>Duration:</strong> 01/2024 - 03/2024<br />
+                        <strong>Project:</strong> E-commerce Micro-services<br />
+                        <ul>
+                            <li>Developed REST APIs with CRUD operations for Catalog (MongoDB) and Basket (Redis) microservices.</li>
+                            <li>Implemented Dapper for PostgreSQL and Grpc Services for inter-service communication.</li>
+                            <li>Integrated RabbitMQ for asynchronous communication and Ocelot for API Gateway management.</li>
+                            <li>Applied DDD, CQRS, and Clean Architecture principles for scalable solutions.</li>
+                            <li>Used Docker Compose for local deployment and Kubernetes for cloud deployment of microservices.</li>
+                        </ul>
+                        <strong>Technologies Used:</strong> .NET 6, ASP.NET API, gRPC, Entity Framework, Docker, Kubernetes, RabbitMQ<br />
+                        <strong>Reference:</strong> Lam Su Minh - SME at TMA Solutions (DC08)
+                    </MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+    </MudGrid>
+
+</MudContainer>
